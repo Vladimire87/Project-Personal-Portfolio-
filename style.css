@@ -1,0 +1,33 @@
+html {
+  background-color: #f8f9fa;
+  font-family: "Nunito Sans", sans-serif;
+  color: #212529;
+  margin: auto;
+}
+body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+  max-width: 1200px;
+}
+
+.about {
+  padding-top: 24px;
+  padding-left: 68px;
+  padding-right: 68px;
+  background-color: #0891b2;
+}
+.about-me {
+  max-width: 1200px;
+  background-color: #adb5bd;
+  display: flex;
+}
+.about-avatar {
+  max-width: 414px;
+  max-height: auto;
+}
+.about-text {
+  padding: 20px;
+}
