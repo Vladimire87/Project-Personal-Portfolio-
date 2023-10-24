@@ -3,16 +3,19 @@ html {
   font-family: "Nunito Sans", sans-serif;
   color: #212529;
 }
+
 body {
   margin: auto;
 }
 
 .wrapper {
 }
+
 .about-section {
   position: relative;
   z-index: 1;
 }
+
 .about-section::before {
   display: block;
   content: "";
@@ -61,8 +64,37 @@ body {
 }
 
 .about-text {
-  padding: 16px;
+  padding: 40px 40px 25px 20px;
   background-color: #f8f9fa;
   border-radius: 0 16px 16px 0;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.about-text h2 {
+  margin: 0;
+  margin-bottom: 36px;
+}
+
+.about-text p {
+  margin-bottom: 50px;
+}
+
+.about-icons {
+  display: flex;
+  justify-content: end;
+  gap: 1.25em;
+}
+
+.about-icons img {
+  width: 28px;
+  height: auto;
+}
+
+main {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
